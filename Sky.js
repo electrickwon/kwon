@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>three.js/main.css at master · mrdoob/three.js</title>
+  <title>three.js/Sky.js at master · mrdoob/three.js</title>
     <meta name="description" content="JavaScript 3D library. Contribute to mrdoob/three.js development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://repository-images.githubusercontent.com/576201/cf70a380-6b1d-11e9-9ce2-457e9517de10" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="mrdoob/three.js" /><meta property="og:url" content="https://github.com/mrdoob/three.js" /><meta property="og:description" content="JavaScript 3D library. Contribute to mrdoob/three.js development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-      <link rel="shared-web-socket" href="wss://live.github.com/_luau/eyJ2IjoiVjMiLCJ1Ijo2NzA2ODM2NywicyI6NTQ3OTYyMDUwLCJjIjoyMjQ5ODI0ODkwLCJ0IjoxNTkzNDM5NTc4fQ==--e9eb6d968bafda117b23d924b08a7ed31e5cf29283866e1d02d689621398ef6a" data-refresh-url="/_ws">
+      <link rel="shared-web-socket" href="wss://live.github.com/_luau/eyJ2IjoiVjMiLCJ1Ijo2NzA2ODM2NywicyI6NTQ3OTYyMDUwLCJjIjozNDE4ODQyMjE3LCJ0IjoxNTkzNDM5MTc1fQ==--f7ec872d9d3233350f4f75e8e16cdd599e8e8f44a79537a037b70823dee9b550" data-refresh-url="/_ws">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="E274:0C1F:41EA41:5BD728:5EF9F555" data-pjax-transient="true" /><meta name="html-safe-nonce" content="f308124e61137682a39a22709ff4dad7ba3dfbc8" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tcmRvb2IvdGhyZWUuanMvdHJlZS9tYXN0ZXIvZXhhbXBsZXMiLCJyZXF1ZXN0X2lkIjoiRTI3NDowQzFGOjQxRUE0MTo1QkQ3Mjg6NUVGOUY1NTUiLCJ2aXNpdG9yX2lkIjoiNzgxODU2MzE3ODgwNjI3Mzk5MCIsInJlZ2lvbl9lZGdlIjoiYW1zIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="bf0eecd9166ba1de69cb8123b695918df00783bc08bf6e76de15994a69bc6802" data-pjax-transient="true" />
+  <meta name="request-id" content="E204:D13B:74735:A1E73:5EF9F3C1" data-pjax-transient="true" /><meta name="html-safe-nonce" content="f308124e61137682a39a22709ff4dad7ba3dfbc8" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tcmRvb2IvdGhyZWUuanMvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvanNtL29iamVjdHMiLCJyZXF1ZXN0X2lkIjoiRTIwNDpEMTNCOjc0NzM1OkExRTczOjVFRjlGM0MxIiwidmlzaXRvcl9pZCI6Ijc4MTg1NjMxNzg4MDYyNzM5OTAiLCJyZWdpb25fZWRnZSI6ImFtcyIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="d34a1c69fdeb25819988015cbda37c24b49f953df9cfaaaa254f8ab56e7a58b6" data-pjax-transient="true" />
 
 
 
@@ -80,7 +80,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="ZDVlMDhiOWRjMmIwOGQ1YWY0MDczNDEwNWRhMjBiZGE3MTU5YmIwMzNlNzhlMmI5NmFmYzY1OGJjM2Q0NWQ0NXx7InJlbW90ZV9hZGRyZXNzIjoiODQuMTUwLjIxOC4xODYiLCJyZXF1ZXN0X2lkIjoiRTI3NDowQzFGOjQxRUE0MTo1QkQ3Mjg6NUVGOUY1NTUiLCJ0aW1lc3RhbXAiOjE1OTM0Mzk1NzgsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="NzBiZGQwNTcxM2VjNWRlZjJkMGQ1ODliOGU0MmEwZjNiYjFhNmMyMWIyMDBhYTZjNWE0OGRjMDdkYjM3MmJmN3x7InJlbW90ZV9hZGRyZXNzIjoiODQuMTUwLjIxOC4xODYiLCJyZXF1ZXN0X2lkIjoiRTIwNDpEMTNCOjc0NzM1OkExRTczOjVFRjlGM0MxIiwidGltZXN0YW1wIjoxNTkzNDM5MTc1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK,PRIMER_NEXT">
 
@@ -94,7 +94,7 @@
   <meta name="octolytics-dimension-user_id" content="97088" /><meta name="octolytics-dimension-user_login" content="mrdoob" /><meta name="octolytics-dimension-repository_id" content="576201" /><meta name="octolytics-dimension-repository_nwo" content="mrdoob/three.js" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="576201" /><meta name="octolytics-dimension-repository_network_root_nwo" content="mrdoob/three.js" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/mrdoob/three.js/blob/master/examples/main.css" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -168,7 +168,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="DaGf4SpOE/TywnLrYcX13r8T+qjDqirV3inrAaiqSBc66pZHUFZU7PSQ+U73uLjWEYYD7MxWxvMtI8T2VE/5Rw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="HBQJpKPx95uJ+tYFXpgpmCTbi1/4RRu5ZIvS1pV4V1srXwAC2emwg4+oXaDI5WSQik5yG/e595+Xgf0haZ3mCw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -319,7 +319,7 @@
       <img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/67068367?s=40&amp;v=4" width="20" height="20" alt="@electrickwon" />
       electrickwon
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6s4WgN7TMJPP7NCTiSiLs7mYY4llWJ6j9OQ4tbM+0XzIpuD60G8G4WvRlVrBhDgPs1WzpIWnAjLo+xwtBNVmmA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="zlDHgujj03I6bLx7XENELTMDuLNUbLWNmdDg8jU8ISbsODH45l/lAJ5R+bIU7/eROc5onrSTKRyFz8RqgteWwg==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -338,7 +338,7 @@
 
   <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
     
-    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NjcwNjgzNjciLCJ0IjoxNTkzNDM5NTc4fQ==--56d163c94832cb396c2903f84c0c1908012d605314f70d15fb6f01b398632c39" href="/notifications">
+    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NjcwNjgzNjciLCJ0IjoxNTkzNDM5MTc1fQ==--a2b8aefff66166c66347002240273b6ea3106247fd26fe1619cd2f020f210913" href="/notifications">
         <span class="js-indicator-modifier mail-status "></span>
         <svg class="octicon octicon-bell" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path></svg>
 </a>
@@ -412,7 +412,7 @@
   data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:97088,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:67068367,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;}}" data-hydro-click-hmac="9b980a0ee988e375932b7da722052a1b98b8b378fd1183f3dc22f3d51b40525e">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:97088,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:67068367,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;}}" data-hydro-click-hmac="edaf774b30c9b32bb5d89e1e51bb38ccf989fefb698474e5695b05bea9e8b346">
       <div class="d-flex flex-items-center flex-items-stretch">
         <div class="f6 lh-condensed user-status-header d-flex user-status-emoji-only-header circle">
           <div class="user-status-emoji-container flex-shrink-0 mr-2 d-flex flex-items-center flex-justify-center lh-condensed-ultra v-align-bottom">
@@ -430,7 +430,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="8esqeWB6JNsDdSvGAO8ejvSFlSVLH597cHr8w6NRpB2wX7akKoJ0XC6eARr4hNp0nr14diNgSp2ge6luA7f0Zg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="tfuJ5O4jt78muBiPR52rrC/wuO+tZASJKUmyeoXbVff0TxU5pNvnOAtTMlO/9m9WRchVvMUb0W/5SOfXJT0FjA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
@@ -548,17 +548,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-29T16:36:18+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-29T16:29:35+02:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-29T17:06:18+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-29T16:59:35+02:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-29T20:06:18+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-29T19:59:35+02:00">
             in 4 hours
           </button>
         </li>
@@ -594,22 +594,22 @@
       </div>
       <div role="none" class="dropdown-divider"></div>
 
-    <a role="menuitem" class="dropdown-item" href="/electrickwon" data-ga-click="Header, go to profile, text:your profile" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;YOUR_PROFILE&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="4f4b16723afeefa536db4fbda3fc2ab2985f896efdabac0766d5c08240bca9f0" >Your profile</a>
+    <a role="menuitem" class="dropdown-item" href="/electrickwon" data-ga-click="Header, go to profile, text:your profile" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;YOUR_PROFILE&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="0b1c783594f228db8bfdd8fdd5ba48c0bbb8fed063a9567cf0488c68e9515fa4" >Your profile</a>
 
-    <a role="menuitem" class="dropdown-item" href="/electrickwon?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;YOUR_REPOSITORIES&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="df9013ee87bfc5eb1a0010ca6b20da8aa2d8da30a865b49e6a597159a13c25e2" >Your repositories</a>
+    <a role="menuitem" class="dropdown-item" href="/electrickwon?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;YOUR_REPOSITORIES&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="f9500cbd0471633ff7f2e88a0c11dbf0092966af7d8849fb3ddad0d3d26056a0" >Your repositories</a>
 
 
-    <a role="menuitem" class="dropdown-item" href="/electrickwon?tab=projects" data-ga-click="Header, go to projects, text:your projects" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;YOUR_PROJECTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="3ac3f736b2d6d8838e0b3daaa9ffa7dac6de9e73d45766980ecad8ca6d731026" >Your projects</a>
+    <a role="menuitem" class="dropdown-item" href="/electrickwon?tab=projects" data-ga-click="Header, go to projects, text:your projects" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;YOUR_PROJECTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="5c1a00a653a87ed3ac25409d2513a840951d539bbf99c3fc34c1ab705fb30986" >Your projects</a>
 
-    <a role="menuitem" class="dropdown-item" href="/electrickwon?tab=stars" data-ga-click="Header, go to starred repos, text:your stars" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;YOUR_STARS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="eba254a9332a5c790170c47e5faa3646059d9857da6cb3d10ed1903f2d36e625" >Your stars</a>
-      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;YOUR_GISTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="de9408417f11c3afa2a09e601b23f2ee95a93ab1f600cd995077594880f24da0" >Your gists</a>
+    <a role="menuitem" class="dropdown-item" href="/electrickwon?tab=stars" data-ga-click="Header, go to starred repos, text:your stars" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;YOUR_STARS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="ef6760e401b86010702e54bb491ce250d000e902c6386d49b20f2028ba749995" >Your stars</a>
+      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;YOUR_GISTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="ff29361a3b3c6ed3e9169deda08f965b08a273ab6804f83d3590660ebadc6f55" >Your gists</a>
 
 
 
 
 
     <div role="none" class="dropdown-divider"></div>
-      <a role="menuitem" class="dropdown-item" href="/settings/billing" data-ga-click="Header, go to billing, text:upgrade" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;UPGRADE&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="10c4d42cfacf271417bb754037a2a1962c325dc4d33eff40b19d0e0f44ca622f" >Upgrade</a>
+      <a role="menuitem" class="dropdown-item" href="/settings/billing" data-ga-click="Header, go to billing, text:upgrade" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;UPGRADE&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="6c1a7b3e859685a5dcb48e8f44fcc80f024e14fb8ad3246e57119d99f393a444" >Upgrade</a>
       
 <div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
   <button
@@ -617,24 +617,24 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/electrickwon/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}"
-    data-feature-preview-close-hmac="c9794a6fbf6852637056183d2a73b9dad05826ebc143af032d30aa490d9bcee7"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}"
-    data-hydro-click-hmac="362c4af2010194967475a98316c65cff82d186c3b04e259556f05edc402359f8"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}"
+    data-feature-preview-close-hmac="5c804dc55e8eb3c4ab0d75fb023ac0683e37202a00ec2bd55d9bc3974bb15011"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}"
+    data-hydro-click-hmac="ff4ebbc261fcd634906cc4bb79dd2521b76826ca305a1feb45ad835e7a64ed6c"
   >
     Feature preview
   </button>
     <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
 </div>
 
-    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="c578e4b04abc028534e0323c05f5175726753a3f76f8117258677b32f5ec3c89" >Help</a>
-    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="03667bc5147d1f1cf379393e6bd38e56e4c46b496fa891ba97f7584867a94178" >Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="OtZ27NT7S/VRtMl8wti/cymFkTjaNKEIZMbYzA2kxhAYvoCW2kd9h/WJjLWKdAzPI0hBFTrLPZl42fxUuk9x9A==" />
+    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="a8410a1c9690ee550885f2251aebf170424a869f12bbbaaeed2ec3745c4e6960" >Help</a>
+    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="ad78324df1d19748614bf26ffb41a2784aceabcd40562af473d1823992f79d9d" >Settings</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="vn9uYreMNkQ98ZIR/XfPo/NJP4KXm9qeT/kmCSLLAv2cF5gYuTAANpnM19i123wf+YTvr3dkRg9T5gKRlSC1GQ==" />
       
-      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="81d645f8f95a2b94126086a1250f25476c66a1f3542dd274f29dd08fe35e9f72"  role="menuitem">
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="5538b6d6f8740b70594df8e753d9d8fd21f3ee9a4816d95c356f10d034bc99f5"  role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_6804" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1593439578828" class="form-control" /><input type="hidden" name="timestamp_secret" value="bde3530ec3be4c0df12801b4d649ca7133c81bbc2559a81c1d1d8647392d8429" class="form-control" />
+      <input type="text" name="required_field_af87" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1593439175254" class="form-control" /><input type="hidden" name="timestamp_secret" value="5a23f302100a9da3687ef822d59d488414b388261a28d24f34236001ec6b8ccd" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -696,10 +696,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="35d3e80eea3b60bf6a2c43017daf35615d6101ba6f5dfae29385a6f6c47679ad" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="58f8f3b5f2ef2f92d7ec395145fc51ae7471ef1cd7199bd110af1bdddb28f271" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="wXgU44tmJTxdiyqx0T9WtM3IQw7gfhgorA2x/EVACrupGKAQXXHwo00bHxIZWVEiyvIu6oVi4V4TsfXsqLS5hA==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="a1a95aad6b8365348c52c0b14c9dfd13269f893b20e35044bcf2a60e25b83a67">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="eFVnKy6TEBGw3F4p9hS57teieArM9oMTJoyWYNG7oIkQNdPY+ITFjqBMa4o+cr540JgV7qnqemWZMNJwPE8Ttg==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="cac92cb62213eb5f90a1a16c4f56db818158066253a97b9fdff1778a20bb7ebe">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
 </button></form>  </div>
 </div>
@@ -738,10 +738,10 @@
       <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 
   <li>
-        <form data-remote="true" class="d-flex js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/HZ6F/M1UxnBE9wCBEnfmU0zuG1hf1ZbXt4s1OwdjfpLLyYcez9WdgIXZRGt02LWjEARz145Nhg8RIX+Tkg/KA==" />      <input type="hidden" name="repository_id" value="576201">
+        <form data-remote="true" class="d-flex js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="egxGqqKAWM1ClO8kG+qZxqyb+zJUQd+fnbACls8rYwfNVRqhKopdooGQVjeycCSJbehSkGsHv9z/Kqu8bX7R1Q==" />      <input type="hidden" name="repository_id" value="576201">
 
       <details class="details-reset details-overlay select-menu hx_rsm">
-        <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="135ab246ee3a8653412accc2282f7b5981e91291b481596b9a8c974a519f4f71" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="1654c07e134d3212945cc516609a334bc3d483060a9664f743380eff12e000bc" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
 
               Watch
@@ -822,9 +822,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/mrdoob/three.js/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="zvGMqCwdaxEGXVphtpH3DIm0GKLpgcCxrZFO+r9+y8TYKC5ppbKeYj8J5NIL8aMJNa8S5u9J26J5lVCAWrHbSA==" />
+    <form class="starred js-social-form" action="/mrdoob/three.js/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="dmQoa8WvHrGsSQVIDcucRVlUwmVV+inQSOfhq/pSyWZgvYqqTADrwpUdu/uwq8hA5U/IIVMyMsOc4//RH53Z6g==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar mrdoob/three.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="f79dc9ada4c6835c512e669a18545b563afe2bf9f1b6c30aa061ca06dc0f5af5" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar mrdoob/three.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="6e30676edd784c89f338938442fa1250e5d42cf8466c0c95b7400a621b769a2f" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/mrdoob/three.js/stargazers"
@@ -832,9 +832,9 @@
            61.7k
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/mrdoob/three.js/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jggXt/X7cQsTi+kpzo/DB+mo68Yv4XaIKdbEhzQgouL5KJa0N+g86QRnqw8/u5CFLDBc4hGj1b2b2dyRjmLSHw==" />
+    <form class="unstarred js-social-form" action="/mrdoob/three.js/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Hqi27Md96srbIiKOhL+ZU64RNscNgh1lZ2apTsJd+nJpiDfvBW6nKMzOYKh1i8rRa4mB4zPAvlDVabFYeB+Kjw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star mrdoob/three.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="459aa8633cf815f885afff0b8f2888a5f3565cd1d937174494e93c0c3e94961f" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star mrdoob/three.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="377dbbd2f68a7a0a9cdca646f19f4aadd54d8c4b2942d6b0036751390e181d58" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/mrdoob/three.js/stargazers"
@@ -846,8 +846,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/mrdoob/three.js/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="CyypboG+WRc3LjC7j/cLxXd47nqmqmXvWzKnGTErLVaZuRB3WJWFvbv1Am99RXpb9fyhP/Tn8OHZuZwslcv+8g==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="175ca9c567c0fe55552aa0e89872f731ff115fa92ce4b39d926ad285753ae2ca" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of mrdoob/three.js to your account" aria-label="Fork your own copy of mrdoob/three.js to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/mrdoob/three.js/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0xk93YgLBtjGE3fbL8AkNVcEVUR+zFQoz6GL2r6kEepBjITEUSDackrIRQ/dclWr1YAaASyBwSZNKrDvGkTCTg==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="79bdd5ab7bc165ae37f27b94fd6c85338a5723f08142b97728c5e7fbf00ae4a4" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of mrdoob/three.js to your account" aria-label="Fork your own copy of mrdoob/three.js to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
               Fork
 </button></form>
     <a href="/mrdoob/three.js/network/members" class="social-count"
@@ -991,9 +991,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/mrdoob/three.js/blob/25d16a2c3c54befcb3916dbe756e051984c532a8/examples/main.css">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/mrdoob/three.js/blob/25d16a2c3c54befcb3916dbe756e051984c532a8/examples/jsm/objects/Sky.js">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:ff044fb4065cb9b172f1a86e7dca372b -->
+    <!-- blob contrib key: blob_contributors:v22:b3fde7d82b650c2c142c2cb26c79467b -->
     
 
     <div class="d-flex flex-items-center flex-shrink-0 pb-3 flex-wrap flex-justify-between flex-md-justify-start">
@@ -1009,7 +1009,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/mrdoob/three.js/refs/master/examples/main.css?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/mrdoob/three.js/refs/master/examples/jsm/objects/Sky.js?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
@@ -1019,7 +1019,50 @@
 </details>
 
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/mrdoob/three.js/tree/master"><span>three.js</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/mrdoob/three.js/tree/master/examples"><span>examples</span></a></span><span class="separator">/</span><strong class="final-path">main.css</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/mrdoob/three.js/tree/master"><span>three.js</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/mrdoob/three.js/tree/master/examples"><span>examples</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/mrdoob/three.js/tree/master/examples/jsm"><span>jsm</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/mrdoob/three.js/tree/master/examples/jsm/objects"><span>objects</span></a></span><span class="separator">/</span><strong class="final-path">Sky.js</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary class="btn-link link-gray css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="a73912c3a65c21ec95167c0fa944d8170d687a09f09b2e57e829c20ca24354af">
+      <svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="64b7c539f6ded0fc082393fd7c5262a18e1b41465f7edc7076d3322481f0e9ef" href="/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js#L26">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>Sky</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
       </h2>
         <a href="/mrdoob/three.js/find/master"
               class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1038,7 +1081,7 @@
 </summary>
               <ul class="dropdown-menu dropdown-menu-sw">
               <li class="d-block d-md-none">
-                <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/main.css&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="0ae12e28966618863ac445e6eae8774dbb20c2a78b01b129e2b3f2ca7b009541" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/mrdoob/three.js/find/master">
+                <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="398ffa9a7250a5c4d99f3fc81bf3d05b82b1a3be9a02e90a3c5b797a22d278d1" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/mrdoob/three.js/find/master">
                   <span class="flex-auto">Go to file</span>
                   <span class="text-small text-gray" aria-hidden="true">T</span>
 </a>              </li>
@@ -1050,9 +1093,17 @@
                   </span>
                 </button>
               </li>
+              <li data-toggle-for="blob-more-options-details">
+                <button type="button" data-toggle-for="jumpto-symbol-select-menu" class="btn-link dropdown-item">
+                  <span class="d-flex flex-items-baseline">
+                    <span class="flex-auto">Go to definition</span>
+                    <span class="text-small text-gray" aria-hidden="true">R</span>
+                  </span>
+                </button>
+              </li>
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <clipboard-copy value="examples/main.css" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+                <clipboard-copy value="examples/jsm/objects/Sky.js" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                   Copy path
                 </clipboard-copy>
               </li>
@@ -1064,7 +1115,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/mrdoob/three.js/contributors/master/examples/main.css" class="commit-loader">
+      <include-fragment src="/mrdoob/three.js/contributors/master/examples/jsm/objects/Sky.js" class="commit-loader">
         <div class="Box-header Box-header--blue d-flex flex-items-center">
             <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
             <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1087,16 +1138,16 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      84 lines (74 sloc)
+      219 lines (166 sloc)
       <span class="file-info-divider"></span>
-    1.24 KB
+    7 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/mrdoob/three.js/raw/master/examples/main.css">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/mrdoob/three.js/blame/master/examples/main.css">Blame</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/mrdoob/three.js/raw/master/examples/jsm/objects/Sky.js">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/mrdoob/three.js/blame/master/examples/jsm/objects/Sky.js">Blame</a>
     </div>
 
 
@@ -1109,13 +1160,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/mrdoob/three.js/edit/master/examples/main.css" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+OAmXzQC5vUabEM9OCwtH5qC6RrIzc2B+yhbyrpbmauKv3WntZ2jFm7HjDicDjH7lV+fsl/WMKVvZ02ar5c7Eg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/mrdoob/three.js/edit/master/examples/jsm/objects/Sky.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="66akioRMes0UopMWeyRr8k/gyUMJn36OyatPtc7H8v9AaCtto9JrFdJ3PEQNY8uNR9Z90N+lGF0fPrCD1Arh+w==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/mrdoob/three.js/delete/master/examples/main.css" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="i5cQpwISyZwzeQbEwliTMusqsrhv29BfY5EcBcUJM2Xz0oGv2TadG1OE7pfyuia52zUT/qlkBNI+gdDOBHDcAQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/mrdoob/three.js/delete/master/examples/jsm/objects/Sky.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sCtIyVPxmOE5hBlXuRX1r5Ljamo2/iF6pTqAbVq63BVT62dmZbCFk63UbW9Hxk2Cx6XUhB8fe59JquI1jB6xcA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1128,231 +1179,233 @@
 
       
 
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-css ">
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript ">
       
 <table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>body</span> {</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/**</span></td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>margin</span>: <span class=pl-c1>0</span>;</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * <span class=pl-k>@author</span> zz85 / https://github.com/zz85</span></td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>background-color</span>: <span class=pl-pds><span class=pl-kos>#</span>000</span>;</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c> *</span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>color</span>: <span class=pl-pds><span class=pl-kos>#</span>fff</span>;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Based on &quot;A Practical Analytic Model for Daylight&quot;</span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>font-family</span>: Monospace;</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * aka The Preetham Model, the de facto standard analytic skydome model</span></td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>font-size</span>: <span class=pl-c1>13<span class=pl-smi>px</span></span>;</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://www.cs.utah.edu/~shirley/papers/sunsky/sunsky.pdf</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>line-height</span>: <span class=pl-c1>24<span class=pl-smi>px</span></span>;</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-c> *</span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>overscroll-behavior</span>: none;</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * First implemented by Simon Wallner</span></td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://www.simonwallner.at/projects/atmospheric-scattering</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-c> *</span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>a</span> {</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Improved by Martin Upitis</span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>color</span>: <span class=pl-pds><span class=pl-kos>#</span>ff0</span>;</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * http://blenderartists.org/forum/showthread.php?245954-preethams-sky-impementation-HDR</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>text-decoration</span>: none;</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class=pl-c> *</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * Three.js integration by zz85 http://twitter.com/blurspline</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-c>*/</span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>a</span>:<span class=pl-c1>hover</span> {</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>text-decoration</span>: underline;</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-kos>{</span></td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>BackSide</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>BoxBufferGeometry</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>button</span> {</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>Mesh</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>cursor</span>: pointer;</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>ShaderMaterial</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>text-transform</span>: uppercase;</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>UniformsUtils</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>Vector3</span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span> <span class=pl-k>from</span> <span class=pl-s>&quot;../../../build/three.module.js&quot;</span><span class=pl-kos>;</span></td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>canvas</span> {</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>display</span>: block;</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class=pl-k>var</span> <span class=pl-v>Sky</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">	<span class=pl-k>var</span> <span class=pl-s1>shader</span> <span class=pl-c1>=</span> <span class=pl-v>Sky</span><span class=pl-kos>.</span><span class=pl-c1>SkyShader</span><span class=pl-kos>;</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>#</span><span class=pl-c1>info</span> {</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>position</span>: absolute;</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">	<span class=pl-k>var</span> <span class=pl-s1>material</span> <span class=pl-c1>=</span> <span class=pl-k>new</span> <span class=pl-v>ShaderMaterial</span><span class=pl-kos>(</span> <span class=pl-kos>{</span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>top</span>: <span class=pl-c1>0<span class=pl-smi>px</span></span>;</td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>name</span>: <span class=pl-s>&#39;SkyShader&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>width</span>: <span class=pl-c1>100<span class=pl-smi>%</span></span>;</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>fragmentShader</span>: <span class=pl-s1>shader</span><span class=pl-kos>.</span><span class=pl-c1>fragmentShader</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>padding</span>: <span class=pl-c1>10<span class=pl-smi>px</span></span>;</td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>vertexShader</span>: <span class=pl-s1>shader</span><span class=pl-kos>.</span><span class=pl-c1>vertexShader</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>box-sizing</span>: border-box;</td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>uniforms</span>: <span class=pl-v>UniformsUtils</span><span class=pl-kos>.</span><span class=pl-en>clone</span><span class=pl-kos>(</span> <span class=pl-s1>shader</span><span class=pl-kos>.</span><span class=pl-c1>uniforms</span> <span class=pl-kos>)</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>text-align</span>: center;</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>side</span>: <span class=pl-v>BackSide</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>-moz-user-select</span>: none;</td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>depthWrite</span>: <span class=pl-c1>false</span></td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>-webkit-user-select</span>: none;</td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span> <span class=pl-kos>)</span><span class=pl-kos>;</span></td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>-ms-user-select</span>: none;</td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>user-select</span>: none;</td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">	<span class=pl-v>Mesh</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span> <span class=pl-smi>this</span><span class=pl-kos>,</span> <span class=pl-k>new</span> <span class=pl-v>BoxBufferGeometry</span><span class=pl-kos>(</span> <span class=pl-c1>1</span><span class=pl-kos>,</span> <span class=pl-c1>1</span><span class=pl-kos>,</span> <span class=pl-c1>1</span> <span class=pl-kos>)</span><span class=pl-kos>,</span> <span class=pl-s1>material</span> <span class=pl-kos>)</span><span class=pl-kos>;</span></td>
       </tr>
       <tr>
         <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>pointer-events</span>: none;</td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>z-index</span>: <span class=pl-c1>1</span>; <span class=pl-c>/* TODO Solve this in HTML */</span></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>;</span></td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class=pl-v>Sky</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span> <span class=pl-c1>=</span> <span class=pl-v>Object</span><span class=pl-kos>.</span><span class=pl-en>create</span><span class=pl-kos>(</span> <span class=pl-v>Mesh</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span> <span class=pl-kos>)</span><span class=pl-kos>;</span></td>
       </tr>
       <tr>
         <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>a</span><span class=pl-kos>,</span> <span class=pl-ent>button</span><span class=pl-kos>,</span> <span class=pl-ent>input</span><span class=pl-kos>,</span> <span class=pl-ent>select</span> {</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>pointer-events</span>: auto;</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class=pl-v>Sky</span><span class=pl-kos>.</span><span class=pl-c1>SkyShader</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>uniforms</span>: <span class=pl-kos>{</span></td>
+      </tr>
+      <tr>
         <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">.<span class=pl-c1>dg</span>.<span class=pl-c1>ac</span> {</td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&quot;turbidity&quot;</span>: <span class=pl-kos>{</span> <span class=pl-c1>value</span>: <span class=pl-c1>2</span> <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>-moz-user-select</span>: none;</td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&quot;rayleigh&quot;</span>: <span class=pl-kos>{</span> <span class=pl-c1>value</span>: <span class=pl-c1>1</span> <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>-webkit-user-select</span>: none;</td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&quot;mieCoefficient&quot;</span>: <span class=pl-kos>{</span> <span class=pl-c1>value</span>: <span class=pl-c1>0.005</span> <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>-ms-user-select</span>: none;</td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&quot;mieDirectionalG&quot;</span>: <span class=pl-kos>{</span> <span class=pl-c1>value</span>: <span class=pl-c1>0.8</span> <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>user-select</span>: none;</td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&quot;sunPosition&quot;</span>: <span class=pl-kos>{</span> <span class=pl-c1>value</span>: <span class=pl-k>new</span> <span class=pl-v>Vector3</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>}</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>z-index</span>: <span class=pl-c1>2</span> <span class=pl-k>!important</span>; <span class=pl-c>/* TODO Solve this in HTML */</span></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&quot;up&quot;</span>: <span class=pl-kos>{</span> <span class=pl-c1>value</span>: <span class=pl-k>new</span> <span class=pl-v>Vector3</span><span class=pl-kos>(</span> <span class=pl-c1>0</span><span class=pl-kos>,</span> <span class=pl-c1>1</span><span class=pl-kos>,</span> <span class=pl-c1>0</span> <span class=pl-kos>)</span> <span class=pl-kos>}</span></td>
       </tr>
       <tr>
         <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>}</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
@@ -1361,121 +1414,702 @@
       </tr>
       <tr>
         <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>#</span><span class=pl-c1>overlay</span> {</td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>vertexShader</span>: <span class=pl-kos>[</span></td>
       </tr>
       <tr>
         <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>position</span>: absolute;</td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;uniform vec3 sunPosition;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>z-index</span>: <span class=pl-c1>2</span>;</td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;uniform float rayleigh;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>top</span>: <span class=pl-c1>0</span>;</td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;uniform float turbidity;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>left</span>: <span class=pl-c1>0</span>;</td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;uniform float mieCoefficient;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>width</span>: <span class=pl-c1>100<span class=pl-smi>%</span></span>;</td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;uniform vec3 up;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>height</span>: <span class=pl-c1>100<span class=pl-smi>%</span></span>;</td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>display</span>: flex;</td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vWorldPosition;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>align-items</span>: center;</td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vSunDirection;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>justify-content</span>: center;</td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying float vSunfade;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>background</span>: <span class=pl-en>rgba</span>(<span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-c1>0</span><span class=pl-kos>,</span><span class=pl-c1>0.7</span>);</td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vBetaR;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vBetaM;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying float vSunE;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>#</span><span class=pl-c1>overlay</span> <span class=pl-ent>button</span> {</td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>background</span>: <span class=pl-pds><span class=pl-kos>#</span>ffffff</span>;</td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>border</span>: <span class=pl-c1>0</span>;</td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>color</span>: <span class=pl-pds><span class=pl-kos>#</span>000000</span>;</td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>padding</span>: <span class=pl-c1>16<span class=pl-smi>px</span></span> <span class=pl-c1>20<span class=pl-smi>px</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>text-transform</span>: uppercase;</td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">		<span class=pl-c1>cursor</span>: pointer;</td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">	}</td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// constants for atmospheric scattering</span></td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float e = 2.71828182845904523536028747135266249775724709369995957;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float pi = 3.141592653589793238462643383279502884197169;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// wavelength of used primaries, according to preetham</span></td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const vec3 lambda = vec3( 680E-9, 550E-9, 450E-9 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// this pre-calcuation replaces older TotalRayleigh(vec3 lambda) function:</span></td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// (8.0 * pow(pi, 3.0) * pow(pow(n, 2.0) - 1.0, 2.0) * (6.0 + 3.0 * pn)) / (3.0 * N * pow(lambda, vec3(4.0)) * (6.0 - 7.0 * pn))</span></td>
+      </tr>
+      <tr>
         <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>#</span><span class=pl-c1>notSupported</span> {</td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const vec3 totalRayleigh = vec3( 5.804542996261093E-6, 1.3562911419845635E-5, 3.0265902468824876E-5 );&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>width</span>: <span class=pl-c1>50<span class=pl-smi>%</span></span>;</td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>margin</span>: auto;</td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// mie stuff</span></td>
       </tr>
       <tr>
         <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>background-color</span>: <span class=pl-pds><span class=pl-kos>#</span>f00</span>;</td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// K coefficient for the primaries</span></td>
       </tr>
       <tr>
         <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
-        <td id="LC82" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>margin-top</span>: <span class=pl-c1>20<span class=pl-smi>px</span></span>;</td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float v = 4.0;&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
-        <td id="LC83" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>padding</span>: <span class=pl-c1>10<span class=pl-smi>px</span></span>;</td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const vec3 K = vec3( 0.686, 0.678, 0.666 );&#39;</span><span class=pl-kos>,</span></td>
       </tr>
       <tr>
         <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
-        <td id="LC84" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// MieConst = pi * pow( ( 2.0 * pi ) / lambda, vec3( v - 2.0 ) ) * K</span></td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const vec3 MieConst = vec3( 1.8399918514433978E14, 2.7798023919660528E14, 4.0790479543861094E14 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// earth shadow hack</span></td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// cutoffAngle = pi / 1.95;</span></td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float cutoffAngle = 1.6110731556870734;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float steepness = 1.5;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float EE = 1000.0;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;float sunIntensity( float zenithAngleCos ) {&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	zenithAngleCos = clamp( zenithAngleCos, -1.0, 1.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	return EE * max( 0.0, 1.0 - pow( e, -( ( cutoffAngle - acos( zenithAngleCos ) ) / steepness ) ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;}&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;vec3 totalMie( float T ) {&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float c = ( 0.2 * T ) * 10E-18;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	return 0.434 * c * MieConst;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;}&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;void main() {&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec4 worldPosition = modelMatrix * vec4( position, 1.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vWorldPosition = worldPosition.xyz;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	gl_Position.z = gl_Position.w;&#39;</span><span class=pl-kos>,</span> <span class=pl-c>// set z to camera.far</span></td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vSunDirection = normalize( sunPosition );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vSunE = sunIntensity( dot( vSunDirection, up ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vSunfade = 1.0 - clamp( 1.0 - exp( ( sunPosition.y / 450000.0 ) ), 0.0, 1.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float rayleighCoefficient = rayleigh - ( 1.0 * ( 1.0 - vSunfade ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// extinction (absorbtion + out scattering)</span></td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// rayleigh coefficients</span></td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vBetaR = totalRayleigh * rayleighCoefficient;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// mie coefficients</span></td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vBetaM = totalMie( turbidity ) * mieCoefficient;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;}&#39;</span></td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span> <span class=pl-s>&#39;\n&#39;</span> <span class=pl-kos>)</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line">	<span class=pl-c1>fragmentShader</span>: <span class=pl-kos>[</span></td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vWorldPosition;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vSunDirection;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying float vSunfade;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vBetaR;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying vec3 vBetaM;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;varying float vSunE;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;uniform float mieDirectionalG;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;uniform vec3 up;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const vec3 cameraPos = vec3( 0.0, 0.0, 0.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// constants for atmospheric scattering</span></td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float pi = 3.141592653589793238462643383279502884197169;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float n = 1.0003;&#39;</span><span class=pl-kos>,</span> <span class=pl-c>// refractive index of air</span></td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float N = 2.545E25;&#39;</span><span class=pl-kos>,</span> <span class=pl-c>// number of molecules per unit volume for air at 288.15K and 1013mb (sea level -45 celsius)</span></td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// optical length at zenith for molecules</span></td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float rayleighZenithLength = 8.4E3;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float mieZenithLength = 1.25E3;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// 66 arc seconds -&gt; degrees, and the cosine of that</span></td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float sunAngularDiameterCos = 0.999956676946448443553574619906976478926848692873900859324;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="LC154" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// 3.0 / ( 16.0 * pi )</span></td>
+      </tr>
+      <tr>
+        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="LC155" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float THREE_OVER_SIXTEENPI = 0.05968310365946075;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="LC156" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// 1.0 / ( 4.0 * pi )</span></td>
+      </tr>
+      <tr>
+        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="LC157" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;const float ONE_OVER_FOURPI = 0.07957747154594767;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="LC158" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="LC159" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;float rayleighPhase( float cosTheta ) {&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="LC160" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	return THREE_OVER_SIXTEENPI * ( 1.0 + pow( cosTheta, 2.0 ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="LC161" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;}&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="LC162" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="LC163" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;float hgPhase( float cosTheta, float g ) {&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="LC164" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float g2 = pow( g, 2.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="LC165" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float inverse = 1.0 / pow( 1.0 - 2.0 * g * cosTheta + g2, 1.5 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="LC166" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	return ONE_OVER_FOURPI * ( ( 1.0 - g2 ) * inverse );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="LC167" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;}&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="LC168" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="LC169" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;void main() {&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="LC170" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="LC171" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 direction = normalize( vWorldPosition - cameraPos );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="LC172" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="LC173" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// optical length</span></td>
+      </tr>
+      <tr>
+        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="LC174" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// cutoff angle at 90 to avoid singularity in next formula.</span></td>
+      </tr>
+      <tr>
+        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
+        <td id="LC175" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float zenithAngle = acos( max( 0.0, dot( up, direction ) ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
+        <td id="LC176" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float inverse = 1.0 / ( cos( zenithAngle ) + 0.15 * pow( 93.885 - ( ( zenithAngle * 180.0 ) / pi ), -1.253 ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
+        <td id="LC177" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float sR = rayleighZenithLength * inverse;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
+        <td id="LC178" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float sM = mieZenithLength * inverse;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
+        <td id="LC179" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
+        <td id="LC180" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// combined extinction factor</span></td>
+      </tr>
+      <tr>
+        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
+        <td id="LC181" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 Fex = exp( -( vBetaR * sR + vBetaM * sM ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
+        <td id="LC182" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
+        <td id="LC183" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// in scattering</span></td>
+      </tr>
+      <tr>
+        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
+        <td id="LC184" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float cosTheta = dot( direction, vSunDirection );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
+        <td id="LC185" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
+        <td id="LC186" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float rPhase = rayleighPhase( cosTheta * 0.5 + 0.5 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
+        <td id="LC187" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 betaRTheta = vBetaR * rPhase;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
+        <td id="LC188" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
+        <td id="LC189" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float mPhase = hgPhase( cosTheta, mieDirectionalG );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
+        <td id="LC190" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 betaMTheta = vBetaM * mPhase;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
+        <td id="LC191" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
+        <td id="LC192" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 Lin = pow( vSunE * ( ( betaRTheta + betaMTheta ) / ( vBetaR + vBetaM ) ) * ( 1.0 - Fex ), vec3( 1.5 ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
+        <td id="LC193" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	Lin *= mix( vec3( 1.0 ), pow( vSunE * ( ( betaRTheta + betaMTheta ) / ( vBetaR + vBetaM ) ) * Fex, vec3( 1.0 / 2.0 ) ), clamp( pow( 1.0 - dot( up, vSunDirection ), 5.0 ), 0.0, 1.0 ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
+        <td id="LC194" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
+        <td id="LC195" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// nightsky</span></td>
+      </tr>
+      <tr>
+        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
+        <td id="LC196" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float theta = acos( direction.y ); // elevation --&gt; y-axis, [-pi/2, pi/2]&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
+        <td id="LC197" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float phi = atan( direction.z, direction.x ); // azimuth --&gt; x-axis [-pi/2, pi/2]&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
+        <td id="LC198" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec2 uv = vec2( phi, theta ) / vec2( 2.0 * pi, pi ) + vec2( 0.5, 0.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
+        <td id="LC199" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 L0 = vec3( 0.1 ) * Fex;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
+        <td id="LC200" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
+        <td id="LC201" class="blob-code blob-code-inner js-file-line">		<span class=pl-c>// composition + solar disc</span></td>
+      </tr>
+      <tr>
+        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
+        <td id="LC202" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	float sundisk = smoothstep( sunAngularDiameterCos, sunAngularDiameterCos + 0.00002, cosTheta );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
+        <td id="LC203" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	L0 += ( vSunE * 19000.0 * Fex ) * sundisk;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
+        <td id="LC204" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
+        <td id="LC205" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 texColor = ( Lin + L0 ) * 0.04 + vec3( 0.0, 0.0003, 0.00075 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
+        <td id="LC206" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
+        <td id="LC207" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	vec3 retColor = pow( texColor, vec3( 1.0 / ( 1.2 + ( 1.2 * vSunfade ) ) ) );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
+        <td id="LC208" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
+        <td id="LC209" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;	gl_FragColor = vec4( retColor, 1.0 );&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
+        <td id="LC210" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
+        <td id="LC211" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;#include &lt;tonemapping_fragment&gt;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
+        <td id="LC212" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;#include &lt;encodings_fragment&gt;&#39;</span><span class=pl-kos>,</span></td>
+      </tr>
+      <tr>
+        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
+        <td id="LC213" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
+        <td id="LC214" class="blob-code blob-code-inner js-file-line">		<span class=pl-s>&#39;}&#39;</span></td>
+      </tr>
+      <tr>
+        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
+        <td id="LC215" class="blob-code blob-code-inner js-file-line">	<span class=pl-kos>]</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span> <span class=pl-s>&#39;\n&#39;</span> <span class=pl-kos>)</span></td>
+      </tr>
+      <tr>
+        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
+        <td id="LC216" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
+        <td id="LC217" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>;</span></td>
+      </tr>
+      <tr>
+        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
+        <td id="LC218" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
+        <td id="LC219" class="blob-code blob-code-inner js-file-line"><span class=pl-k>export</span> <span class=pl-kos>{</span> <span class=pl-v>Sky</span> <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
       </tr>
 </table>
 
@@ -1495,7 +2129,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/mrdoob/three.js/blame/25d16a2c3c54befcb3916dbe756e051984c532a8/examples/main.css">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/mrdoob/three.js/blame/25d16a2c3c54befcb3916dbe756e051984c532a8/examples/jsm/objects/Sky.js">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/mrdoob/three.js/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -1516,6 +2150,20 @@
         <button type="submit" class="btn" data-close-dialog>Go</button>
 </form>    </details-dialog>
   </details>
+
+    <div class="Popover anim-scale-in js-tagsearch-popover"
+     hidden
+     data-tagsearch-url="/mrdoob/three.js/find-symbols"
+     data-tagsearch-ref="master"
+     data-tagsearch-path="examples/jsm/objects/Sky.js"
+     data-tagsearch-lang="JavaScript"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/objects/Sky.js&quot;,&quot;user_id&quot;:67068367}}"
+     data-hydro-click-hmac="7385fe99a3902759c2c56db217934abc54d99c1dff0e250260aa2112f22a29c3">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
 
 
 

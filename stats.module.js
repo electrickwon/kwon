@@ -17,9 +17,9 @@
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-xnQIMZDOHZTyEPkXHdiwqBPPUAyzDzAU5iDJa6OfzDqwhJdI+0IyBajpzgDAKoegEWUXs4Ze9+/jGhP/OMD98w==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-c674083190ce1d94f210f9171dd8b0a8.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-M+rOrrqF1JSfReuJe+z3tZLbJ2S9Blt6dzIAQp0s5n6ps4eFL01D/bei2Qf9Qo0RLw7Dh8zVze9A1ozNHu2k2Q==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-next-33eaceaeba85d4949f45eb897becf7b5.css" />
   
-    <link crossorigin="anonymous" media="all" integrity="sha512-b5p99KrmqD9vCDNPdAZGYoVy0sCO5lLwf6WbUE49PkpHMdByZtIJRcUWL5JKbKqJX/05lAdt6faNXjSAA5TqoQ==" rel="stylesheet" href="https://github.githubassets.com/assets/github-6f9a7df4aae6a83f6f08334f74064662.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-qP/wSs83gQ2Jsrm94mfqU27K5YQ4xKUtKbbl+eMuqODXJdZ/C/K5YajXR6yHDWZ7O4E0Z3FMG8OAOvIJHKvtGA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-next-a8fff04acf37810d89b2b9bde267ea53.css" />
     
     
     
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://repository-images.githubusercontent.com/576201/cf70a380-6b1d-11e9-9ce2-457e9517de10" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="mrdoob/three.js" /><meta property="og:url" content="https://github.com/mrdoob/three.js" /><meta property="og:description" content="JavaScript 3D library. Contribute to mrdoob/three.js development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTQ3OTYyMDUwOjI1MTdhNjk4NDc3MmI2ODRhNzA2MmUxMTI1NDYyOTBjZDE0MGQxMTc1YTkzMWY3MTE2NzBlYWNjZWY2NDFkNDY=--31770c882cd09b32c8684576ae2ecb71abafbf60">
+      <link rel="shared-web-socket" href="wss://live.github.com/_luau/eyJ2IjoiVjMiLCJ1Ijo2NzA2ODM2NywicyI6NTQ3OTYyMDUwLCJjIjoxMDA2ODAyNjY3LCJ0IjoxNTkzNDM5MTA1fQ==--c655be3c2a0e52d6f5d746275370b60112f3443f861431e8cfbd8b415a8855f0" data-refresh-url="/_ws">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="C068:36164:303B569:4499854:5EED1A77" data-pjax-transient="true" /><meta name="html-safe-nonce" content="f308124e61137682a39a22709ff4dad7ba3dfbc8" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tcmRvb2IvdGhyZWUuanMvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvanNtL2xpYnMiLCJyZXF1ZXN0X2lkIjoiQzA2ODozNjE2NDozMDNCNTY5OjQ0OTk4NTQ6NUVFRDFBNzciLCJ2aXNpdG9yX2lkIjoiNzgxODU2MzE3ODgwNjI3Mzk5MCIsInJlZ2lvbl9lZGdlIjoiYW1zIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="78933fa20739a5ec395ebc355dcb8a600a207ef73f4f66f936b3fe723e30e4aa" data-pjax-transient="true" />
+  <meta name="request-id" content="E204:D13B:73ABB:A0999:5EF9F372" data-pjax-transient="true" /><meta name="html-safe-nonce" content="f308124e61137682a39a22709ff4dad7ba3dfbc8" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tcmRvb2IvdGhyZWUuanMvdHJlZS9tYXN0ZXIvZXhhbXBsZXMvanNtL2xpYnMiLCJyZXF1ZXN0X2lkIjoiRTIwNDpEMTNCOjczQUJCOkEwOTk5OjVFRjlGMzcyIiwidmlzaXRvcl9pZCI6Ijc4MTg1NjMxNzg4MDYyNzM5OTAiLCJyZWdpb25fZWRnZSI6ImFtcyIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="00a6cfd23e6e509e5aaa63be2e9f047b172ec0c66ab876320f2a29b9ce8acac9" data-pjax-transient="true" />
 
 
 
@@ -61,7 +61,6 @@
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
-<meta name="optimizely-datafile" content="{}" />
 
     <meta name="google-analytics" content="UA-3769691-2">
 
@@ -81,11 +80,11 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="YTllNGM1YTY0MzFkOTAzZGVlZTliNGYzZjAxZmIxMjljN2JlNzdlZTA3ODMwZTZhNDM0MmU2Y2NjNzQ5MzMyY3x7InJlbW90ZV9hZGRyZXNzIjoiODQuMTUwLjIxOC4xODYiLCJyZXF1ZXN0X2lkIjoiQzA2ODozNjE2NDozMDNCNTY5OjQ0OTk4NTQ6NUVFRDFBNzciLCJ0aW1lc3RhbXAiOjE1OTI1OTcxMzAsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="ZThlOTMwN2NhYzZmMzFjM2ZhMzViM2M4MDhhMDI3YzdmZjZkM2ZiNTM1NTJiNTZlODFkOTUyZjExZDJlNmU2ZHx7InJlbW90ZV9hZGRyZXNzIjoiODQuMTUwLjIxOC4xODYiLCJyZXF1ZXN0X2lkIjoiRTIwNDpEMTNCOjczQUJCOkEwOTk5OjVFRjlGMzcyIiwidGltZXN0YW1wIjoxNTkzNDM5MTA1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK,PRIMER_NEXT">
 
-  <meta http-equiv="x-pjax-version" content="880a7076d018cba5d150303c7905c29a">
+  <meta http-equiv="x-pjax-version" content="d20575307c438c43353de3782f8fe8f5">
   
 
       <link href="https://github.com/mrdoob/three.js/commits/master.atom" rel="alternate" title="Recent Commits to three.js:master" type="application/atom+xml">
@@ -127,7 +126,7 @@
 
 
 
-          <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap p-responsive" role="banner">
+          <header class="Header py-lg-0 js-details-container Details flex-wrap flex-lg-nowrap px-3" role="banner">
   <div class="Header-item d-none d-lg-flex">
     <a class="Header-link" href="https://github.com/" data-hotkey="g d"
   aria-label="Homepage " data-ga-click="Header, go to dashboard, icon:logo">
@@ -169,7 +168,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="xj/ZlgwMP4gtZjIkChTT/y6UqsptNPMc2JoJCwdxHyHxdNAwdhR4kCs0uYGcaZ73gAFTjmLIHzorkCb8+5SucQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="Mw4uqi5JhIj7ERHovkNcAaH67qGiwAmVoHlgPaKV6WMERScMVFHDkP1Dmk0oPhEJD28X5a085bNTc0/KXnBYMw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -320,7 +319,7 @@
       <img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/67068367?s=40&amp;v=4" width="20" height="20" alt="@electrickwon" />
       electrickwon
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ly196EuA51GCGawHMo0m735Nx6KtOjRciyo6OBfFcUC1RYuSRTzRIyYk6c56IZVTdIAXj03FqM2XNR6goC7GpA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6r5n1lJDMRUExYKDRl8J31uP0CyvEhnBUsejTtDCUwHI1pGsXP8HZ6D4x0oO87pjUUIAAU/thVBO2IfWZynk5Q==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -330,18 +329,16 @@
   </div>
 
   <div class="Header-item Header-item--full flex-justify-center d-lg-none position-relative">
-    <div class="css-truncate css-truncate-target width-fit position-absolute left-0 right-0 text-center">
-                <svg class="octicon octicon-repo" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-    <a class="Header-link" href="/mrdoob">mrdoob</a>
-    /
-    <a class="Header-link" href="/mrdoob/three.js">three.js</a>
+    <a class="Header-link" href="https://github.com/" data-hotkey="g d"
+  aria-label="Homepage " data-ga-click="Header, go to dashboard, icon:logo">
+  <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
 
-</div>
   </div>
 
   <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
     
-    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:67068367" href="/notifications">
+    <a aria-label="You have no unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NjcwNjgzNjciLCJ0IjoxNTkzNDM5MTA1fQ==--5f7f44269c71d144577e884189cabbf553424bfa5a1bb2f3201f710d0f9cccb7" href="/notifications">
         <span class="js-indicator-modifier mail-status "></span>
         <svg class="octicon octicon-bell" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path></svg>
 </a>
@@ -433,7 +430,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="0LFX90NjaQGSTA0h9Rmwt4jznc6wV9G4rgjIkdsXuyGRBcsqCZs5hr+nJ/0NcnRN4stwndgoBF5+CZ08e/HrWg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="ohNxE86BbgB1qWE8dhGTyo4Xxf9Affv38f/7QjjSxT/jp+3OhHk+h1hCS+COelcw5C8orCgCLhEh/q7vmDSVRA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
@@ -551,27 +548,27 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-19T22:35:30+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-29T16:28:25+02:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-19T23:05:30+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-29T16:58:25+02:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-20T02:05:30+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-29T19:58:25+02:00">
             in 4 hours
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2020-06-19T23:59:59+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="today" value="2020-06-29T23:59:59+02:00">
             today
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="this week" value="2020-06-21T23:59:59+02:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="this week" value="2020-07-05T23:59:59+02:00">
             this week
           </button>
         </li>
@@ -632,12 +629,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="3e211718b3238733d0f7de1699220f05600416c8f6d3b329fe6bd3212bdfc77a" >Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="bc7780bb4023e0445e7c771e77481e489e66210d4dea905dd1e7553383454fb3" >Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EhJrIaAO64ssM7KNdx+rxZ1YPJf5HXjhutb6f7QMhQkwep1brrLd+YgO90Q/sxh5l5Xsuhni5HCmyd7nA+cy7Q==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="PYM8yx4FiIMZoJ2NA/Ld9jscAfPpK1sLk9NMmjcHnYof68qxELm+8b2d2ERLXm5KMdHR3gnUx5qPzGgCgOwqbg==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="60f411c2d67b122197ab887f74dff6c4e171c3c459ac7013dbd1b20b6e808e03"  role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_2092" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1592597130091" class="form-control" /><input type="hidden" name="timestamp_secret" value="7ca3a08d9a1a20832b4cfdd4505aef2d1db5e36e2e9b9a7af4fd3021216d3b9e" class="form-control" />
+      <input type="text" name="required_field_3239" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1593439105100" class="form-control" /><input type="hidden" name="timestamp_secret" value="30d22a8de337d02caf3b8e29354838dc1fb97a379009395547d389f47fa65f2f" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -659,7 +656,7 @@
 
   <template class="js-flash-template">
     <div class="flash flash-full  js-flash-template-container">
-  <div class="container-lg px-2" >
+  <div class=" px-2" >
     <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
       <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
     </button>
@@ -679,7 +676,12 @@
 
 
 
-  <div class="application-main " data-commit-hovercards-enabled>
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main  >
       
@@ -696,7 +698,7 @@
       </p>
       <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="29c1aa00adfa32265b985a572aebf2867416a5b4ad44958c3351139fef4c8ec0" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="Q52JLaTrD/XvtY8p/+tFJ6Ga3y/oTTYG7duSVhcdGlsr/T3ecvzaav8luoo3jUKxpqCyy41Rz3BSZ9ZG+umpZA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="uYjuZ5NLp15eDz1y9LaBYdnCbozWlwSiVTOhq3qPeq/R6FqURVxywU6fCNE80Ib33vgDaLOL/dTqj+W7l3vJkA==" />
       <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="c58ed8dbb038b618ed7079d035bbcd10decf270a4330dfa33c7bc709a5f6826a">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
 </button></form>  </div>
@@ -711,16 +713,15 @@
 
 
 
+  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-3 border-0 mb-5">
 
-  <div class="pagehead repohead hx_repohead readability-menu bg-gray-light pb-0 pt-0 pt-lg-3">
-
-    <div class="d-flex container-lg mb-4 p-responsive d-none d-lg-flex">
+    <div class="d-flex mb-3 px-3 px-md-4 px-lg-5">
 
       <div class="flex-auto min-width-0 width-fit mr-3">
-        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none ">
-  <span class="flex-self-stretch" style="margin-top: -2px;">
+        <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none f3">
+  
       <svg class="octicon octicon-repo" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-  </span>
+  
   <span class="author ml-2 flex-self-stretch" itemprop="author">
     <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/mrdoob/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob">mrdoob</a>
   </span>
@@ -734,106 +735,76 @@
 
       </div>
 
-      <ul class="pagehead-actions flex-shrink-0 " >
-
-
-
-    <li >
-      
-    <details class="dropdown details-reset details-overlay d-inline-block float-left"
-      data-deferred-details-content-url="/mrdoob/three.js/used_by_contents"
-    >
-      <summary class="btn btn-sm btn-with-count" data-menu-button>
-        <svg class="octicon octicon-package v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"></path></svg>
-        Used by
-        <div class="dropdown-caret"></div>
-      </summary>
-      <include-fragment accept="text/fragment+html">
-        <div class="dropdown-menu dropdown-menu-s p-3 text-center" style="width:360px;">
-          <img width="32" height="32" alt="Loading..." class="my-0" src="https://github.githubassets.com/images/spinners/octocat-spinner-64.gif" />
-          <p class="pt-1 m-0 f5 text-gray-light">
-            Loading dependents...
-          </p>
-        </div>
-      </include-fragment>
-    </details>
-    <a class="social-count"
-      href="/mrdoob/three.js/network/dependents?package_id=UGFja2FnZS00ODk4NzQxNDA%3D"
-      aria-label="33571 repositories depend on this package"
-    >
-      33.6k
-    </a>
-
-    </li>
+      <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
 
   <li>
-    
+        <form data-remote="true" class="d-flex js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="urj/jdxLhMW55OXCquVGk11OuCHfCunFTI0x234DHkMN4aOGVEGBqnrgXNEDf/vcnD0Rg+BMiYYuF5jx3FaskQ==" />      <input type="hidden" name="repository_id" value="576201">
 
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container clearfix" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="RI8YwwGzYeWfhWn1t3OA9eZC2xJXFGjfYQr+GAlDunvz1kTIiblkilyB0OYe6T26JzFysGhSCJwDkFcyqxYIqQ==" />      <input type="hidden" name="repository_id" value="576201">
+      <details class="details-reset details-overlay select-menu hx_rsm">
+        <summary class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="9c9a4387600ac50d6cc97ff6ff283b6a68dc7c145f1e90b87870aaeaaec17195" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+              <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
 
-      <details class="details-reset details-overlay select-menu float-left" >
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="9c9a4387600ac50d6cc97ff6ff283b6a68dc7c145f1e90b87870aaeaaec17195" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
-              <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
               Watch
           </span>
+          <span class="dropdown-caret d-inline-block d-md-none"></span>
 </summary>        <details-menu
-          class="select-menu-modal position-absolute mt-5 "
+          class="select-menu-modal position-absolute mt-5"
           style="z-index: 99;">
           <div class="select-menu-header">
             <span class="select-menu-title">Notifications</span>
           </div>
           <div class="select-menu-list">
-            <button
-              type="submit"
-              name="do"
-              value="included"
-              class="select-menu-item width-full"
-              aria-checked="true"
-              role="menuitemradio"
-              
-            >
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+            <button type="submit" name="do" value="included" class="select-menu-item width-full" aria-checked="true" role="menuitemradio">
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
               <div class="select-menu-item-text">
                 <span class="select-menu-item-heading">Not watching</span>
                 <span class="description">Be notified only when participating or @mentioned.</span>
                 <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                  <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
                   Watch
                 </span>
               </div>
             </button>
 
             <button type="submit" name="do" value="release_only" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
               <div class="select-menu-item-text">
                 <span class="select-menu-item-heading">Releases only</span>
                 <span class="description">Be notified of new releases, and when participating or @mentioned.</span>
                 <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                  <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
                   Unwatch releases
                 </span>
               </div>
             </button>
 
             <button type="submit" name="do" value="subscribed" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
               <div class="select-menu-item-text">
                 <span class="select-menu-item-heading">Watching</span>
                 <span class="description">Be notified of all conversations.</span>
                 <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                  <svg height="16" class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+
                   Unwatch
                 </span>
               </div>
             </button>
 
             <button type="submit" name="do" value="ignore" class="select-menu-item width-full" aria-checked="false" role="menuitemradio">
-              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <svg height="16" class="octicon octicon-check select-menu-item-icon" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+
               <div class="select-menu-item-text">
                 <span class="select-menu-item-heading">Ignoring</span>
                 <span class="description">Never be notified.</span>
                 <span class="hidden-select-button-text" data-menu-button-contents>
-                  <svg class="octicon octicon-mute" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.75a.75.75 0 00-1.238-.57L3.472 5H1.75A1.75 1.75 0 000 6.75v2.5C0 10.216.784 11 1.75 11h1.723l3.289 2.82A.75.75 0 008 13.25V2.75zM4.238 6.32L6.5 4.38v7.24L4.238 9.68a.75.75 0 00-.488-.18h-2a.25.25 0 01-.25-.25v-2.5a.25.25 0 01.25-.25h2a.75.75 0 00.488-.18zm7.042-1.1a.75.75 0 10-1.06 1.06L11.94 8l-1.72 1.72a.75.75 0 101.06 1.06L13 9.06l1.72 1.72a.75.75 0 101.06-1.06L14.06 8l1.72-1.72a.75.75 0 00-1.06-1.06L13 6.94l-1.72-1.72z"></path></svg>
+                  <svg height="16" class="octicon octicon-mute" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.75a.75.75 0 00-1.238-.57L3.472 5H1.75A1.75 1.75 0 000 6.75v2.5C0 10.216.784 11 1.75 11h1.723l3.289 2.82A.75.75 0 008 13.25V2.75zM4.238 6.32L6.5 4.38v7.24L4.238 9.68a.75.75 0 00-.488-.18h-2a.25.25 0 01-.25-.25v-2.5a.25.25 0 01.25-.25h2a.75.75 0 00.488-.18zm7.042-1.1a.75.75 0 10-1.06 1.06L11.94 8l-1.72 1.72a.75.75 0 101.06 1.06L13 9.06l1.72 1.72a.75.75 0 101.06-1.06L14.06 8l1.72-1.72a.75.75 0 00-1.06-1.06L13 6.94l-1.72-1.72z"></path></svg>
+
                   Stop ignoring
                 </span>
               </div>
@@ -843,7 +814,7 @@
       </details>
         <a class="social-count js-social-count"
           href="/mrdoob/three.js/watchers"
-          aria-label="2473 users are watching this repository">
+          aria-label="2471 users are watching this repository">
           2.5k
         </a>
 </form>
@@ -851,179 +822,167 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/mrdoob/three.js/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="KO9n0lQDzyNTXk+N9CNhIi7UMD6ZgGC1Zwx7V0GDl0k+NsUT3aw6UGoK8T5JQzUnks86ep9Ie6azCGUtpEyHxQ==" />
+    <form class="starred js-social-form" action="/mrdoob/three.js/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="wEsQewX0GMfOLCHxVSpwXL2uf2FM/GCsL8vRY12bajvWkrK6jFvttPd4n0LoSiRZAbV1JUo0e7/7z88ZuFR6tw==" />
       <input type="hidden" name="context" value="repository"></input>
       <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar mrdoob/three.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="95496f96ae9655df476d727fb42081f20287cf00283eb938ecef739dfe9831da" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/mrdoob/three.js/stargazers"
-           aria-label="61514 users starred this repository">
-           61.5k
+           aria-label="61717 users starred this repository">
+           61.7k
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/mrdoob/three.js/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="MngktdYi7ld4P/niOdWzE8cSx9Yqti78zyi8eyxvD7ZFWKW2FDGjtW/Tu8TI4eCRAopw8hT0jcl9J6Rtli1/Sw==" />
+    <form class="unstarred js-social-form" action="/mrdoob/three.js/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="p+WV7W3s+YCz6vCXsxKe5lOHQMynLm/GtzSuVqxvUiDQxRTur/+0YqQGsrFCJs1klh/36JlszPMFO7ZAFi0i3Q==" />
       <input type="hidden" name="context" value="repository"></input>
       <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star mrdoob/three.js" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="8d0419e0d627f1dd3c08fd5ff8fd3363097aca98dbe9fc2866a8673e101a6596" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/mrdoob/three.js/stargazers"
-           aria-label="61514 users starred this repository">
-          61.5k
+           aria-label="61717 users starred this repository">
+          61.7k
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/mrdoob/three.js/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JOVWeo61cNDSct21q6tTiAHh/Dg1sHXc7f7pze6QvOS2cO9jV56sel6p72FZGSIWg2WzfWf94NJvddL4SnBvQA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/mrdoob/three.js/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="s2OnkcqptzziEci+lAs9rTroOm0M4VDPmoPFbWe1sQch9h6IE4Jrlm7K+mpmuUwzuGx1KF6sxcEYCP5Yw1Viow==" />
             <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="b2efc616d3426f52195d0d9ae916c8c1d57f04e57dd45754211a6b2b2bfdb24d" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of mrdoob/three.js to your account" aria-label="Fork your own copy of mrdoob/three.js to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
               Fork
 </button></form>
     <a href="/mrdoob/three.js/network/members" class="social-count"
-       aria-label="24000 users forked this repository">
-      24k
+       aria-label="24094 users forked this repository">
+      24.1k
     </a>
   </li>
 </ul>
 
     </div>
-      <nav class="js-repo-nav js-sidenav-container-pjax clearfix hx_reponav reponav p-responsive d-none d-lg-block container-lg"
-     itemscope
-     itemtype="http://schema.org/BreadcrumbList"
-    aria-label="Repository"
-     data-pjax="#js-repo-pjax-container">
-  <ul class="list-style-none">
-    <li  itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-ga-click="Repository, Navigation click, Code tab" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /mrdoob/three.js/tree/master" href="/mrdoob/three.js/tree/master">
-        <div class="d-inline"><svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg></div>
-        <span itemprop="name">Code</span>
-        <meta itemprop="position" content="1">
-</a>    </li>
+    
+<nav class="UnderlineNav js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden px-3 px-md-4 px-lg-5 bg-gray-light" aria-label="Repository" data-pjax="#js-repo-pjax-container">
+  <ul class="UnderlineNav-body list-style-none ">
+          <li class="d-flex">
+        <a class="js-selected-navigation-item selected UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="code-tab" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /mrdoob/three.js/tree/master" href="/mrdoob/three.js/tree/master">
+              <svg height="16" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
 
-      <li  itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" data-ga-click="Repository, Navigation click, Issues tab" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /mrdoob/three.js/issues" href="/mrdoob/three.js/issues">
-          <div class="d-inline"><svg class="octicon octicon-issue-opened" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg></div>
-          <span itemprop="name">Issues</span>
-          <span class="Counter">447</span>
-          <meta itemprop="position" content="2">
+            <span data-content="Code">Code</span>
+              
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /mrdoob/three.js/issues" href="/mrdoob/three.js/issues">
+              <svg height="16" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
+
+            <span data-content="Issues">Issues</span>
+              <span class="Counter ">454</span>
+
+
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="pull-requests-tab" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-selected-links="repo_pulls checks /mrdoob/three.js/pulls" href="/mrdoob/three.js/pulls">
+              <svg height="16" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>
+
+            <span data-content="Pull requests">Pull requests</span>
+              <span class="Counter ">120</span>
+
+
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="actions-tab" data-hotkey="g w" data-ga-click="Repository, Navigation click, Actions tab" data-selected-links="repo_actions /mrdoob/three.js/actions" href="/mrdoob/three.js/actions">
+              <svg height="16" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg>
+
+            <span data-content="Actions">Actions</span>
+              
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="projects-tab" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-selected-links="repo_projects new_repo_project repo_project /mrdoob/three.js/projects" href="/mrdoob/three.js/projects">
+              <svg height="16" class="octicon octicon-project UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+
+            <span data-content="Projects">Projects</span>
+              <span class="Counter ">1</span>
+
+
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="wiki-tab" data-ga-click="Repository, Navigation click, Wikis tab" data-selected-links="repo_wiki /mrdoob/three.js/wiki" href="/mrdoob/three.js/wiki">
+              <svg height="16" class="octicon octicon-book UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path></svg>
+
+            <span data-content="Wiki">Wiki</span>
+              
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="security-tab" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-selected-links="security overview alerts policy token_scanning code_scanning /mrdoob/three.js/security" href="/mrdoob/three.js/security">
+              <svg height="16" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path></svg>
+
+            <span data-content="Security">Security</span>
+              <span class="Counter js-security-tab-count " data-url="/mrdoob/three.js/security/overall-count" hidden="hidden">1</span>
+
+
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="insights-tab" data-ga-click="Repository, Navigation click, Insights tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /mrdoob/three.js/pulse" href="/mrdoob/three.js/pulse">
+              <svg height="16" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>
+
+            <span data-content="Insights">Insights</span>
+              
 </a>      </li>
 
-    <li  itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a data-hotkey="g p" data-skip-pjax="true" itemprop="url" data-ga-click="Repository, Navigation click, Pull requests tab" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /mrdoob/three.js/pulls" href="/mrdoob/three.js/pulls">
-        <div class="d-inline"><svg class="octicon octicon-git-pull-request" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg></div>
-        <span itemprop="name">Pull requests</span>
-        <span class="Counter">110</span>
-        <meta itemprop="position" content="4">
-</a>    </li>
+</ul>
+        <div class="position-absolute right-0 pr-3 pr-md-4 pr-lg-5 js-responsive-underlinenav-overflow" style="visibility:hidden;">
+      <details class="details-overlay details-reset position-relative">
+  <summary role="button">
+              <div class="UnderlineNav-item mr-0 border-0">
+            <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+            <span class="sr-only">More</span>
+          </div>
 
+</summary>
+            <details-menu class="dropdown-menu dropdown-menu-sw " role="menu">
+  
+            <ul>
+                <li data-menu-item="code-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/tree/master" href="/mrdoob/three.js/tree/master">
+                    Code
+</a>                </li>
+                <li data-menu-item="issues-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/issues" href="/mrdoob/three.js/issues">
+                    Issues
+</a>                </li>
+                <li data-menu-item="pull-requests-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/pulls" href="/mrdoob/three.js/pulls">
+                    Pull requests
+</a>                </li>
+                <li data-menu-item="actions-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/actions" href="/mrdoob/three.js/actions">
+                    Actions
+</a>                </li>
+                <li data-menu-item="projects-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/projects" href="/mrdoob/three.js/projects">
+                    Projects
+</a>                </li>
+                <li data-menu-item="wiki-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/wiki" href="/mrdoob/three.js/wiki">
+                    Wiki
+</a>                </li>
+                <li data-menu-item="security-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/security" href="/mrdoob/three.js/security">
+                    Security
+</a>                </li>
+                <li data-menu-item="insights-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /mrdoob/three.js/pulse" href="/mrdoob/three.js/pulse">
+                    Insights
+</a>                </li>
+            </ul>
 
-      <li itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement" class="position-relative float-left ">
-        <a data-hotkey="g w" data-skip-pjax="true" data-ga-click="Repository, Navigation click, Actions tab" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /mrdoob/three.js/actions" href="/mrdoob/three.js/actions">
-          <div class="d-inline"><svg class="octicon octicon-play" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg></div>
-          Actions
-</a>
-      </li>
+</details-menu>
 
-      <li >
-        <a data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /mrdoob/three.js/projects" href="/mrdoob/three.js/projects">
-          <div class="d-inline"><svg class="octicon octicon-project" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg></div>
-          Projects
-          <span class="Counter">1</span>
-</a>      </li>
+</details>
+    </div>
 
-      <li >
-        <a data-ga-click="Repository, Navigation click, Wikis tab" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /mrdoob/three.js/wiki" href="/mrdoob/three.js/wiki">
-          <div class="d-inline"><svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path></svg></div>
-          Wiki
-</a>      </li>
-
-      <li >
-        <a data-skip-pjax="true" data-ga-click="Repository, Navigation click, Security tab" class="js-selected-navigation-item reponav-item" data-selected-links="security overview alerts policy token_scanning code_scanning /mrdoob/three.js/security" href="/mrdoob/three.js/security">
-          <div class="d-inline"><svg class="octicon octicon-shield" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path></svg></div>
-          Security
-            <span class="Counter js-security-tab-count" data-url="/mrdoob/three.js/security/overall-count" hidden></span>
-</a>      </li>
-
-      <li >
-        <a data-ga-click="Repository, Navigation click, Insights tab" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /mrdoob/three.js/pulse" href="/mrdoob/three.js/pulse">
-          <div class="d-inline"><svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg></div>
-          Insights
-</a>      </li>
-
-
-  </ul>
 </nav>
-
-  <div class="reponav-wrapper reponav-small d-lg-none">
-  <nav class="reponav js-reponav text-center no-wrap"
-       itemscope
-       itemtype="http://schema.org/BreadcrumbList">
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a class="js-selected-navigation-item selected reponav-item" itemprop="url" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /mrdoob/three.js/tree/master" href="/mrdoob/three.js/tree/master">
-        <span itemprop="name">Code</span>
-        <meta itemprop="position" content="1">
-</a>    </span>
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /mrdoob/three.js/issues" href="/mrdoob/three.js/issues">
-          <span itemprop="name">Issues</span>
-          <span class="Counter">447</span>
-          <meta itemprop="position" content="2">
-</a>      </span>
-
-    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /mrdoob/three.js/pulls" href="/mrdoob/three.js/pulls">
-        <span itemprop="name">Pull requests</span>
-        <span class="Counter">110</span>
-        <meta itemprop="position" content="4">
-</a>    </span>
-
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /mrdoob/three.js/projects" href="/mrdoob/three.js/projects">
-          <span itemprop="name">Projects</span>
-          <span class="Counter">1</span>
-          <meta itemprop="position" content="5">
-</a>      </span>
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_actions /mrdoob/three.js/actions" href="/mrdoob/three.js/actions">
-          <span itemprop="name">Actions</span>
-          <meta itemprop="position" content="6">
-</a>      </span>
-
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_wiki /mrdoob/three.js/wiki" href="/mrdoob/three.js/wiki">
-          <span itemprop="name">Wiki</span>
-          <meta itemprop="position" content="7">
-</a>      </span>
-
-      <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="security overview alerts policy token_scanning code_scanning /mrdoob/three.js/security" href="/mrdoob/three.js/security">
-        <span itemprop="name">Security</span>
-          <span class="Counter js-security-deferred-tab-count" hidden></span>
-        <meta itemprop="position" content="8">
-</a>
-      <a class="js-selected-navigation-item reponav-item" data-selected-links="pulse /mrdoob/three.js/pulse" href="/mrdoob/three.js/pulse">
-        Pulse
-</a>
-      <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="community /mrdoob/three.js/community" href="/mrdoob/three.js/community">
-          Community
-</a>      </span>
-
-  </nav>
-</div>
-
 
   </div>
 
-  
-
-  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
-
-
-<div class="container-lg clearfix new-discussion-timeline  p-responsive">
+<div class="container-xl clearfix new-discussion-timeline  px-3 px-md-4 px-lg-5">
   <div class="repository-content ">
 
     
@@ -1032,18 +991,20 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/mrdoob/three.js/blob/400acd3c78c8e631087322eb1e0e9fc00a16b375/examples/jsm/libs/stats.module.js">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/mrdoob/three.js/blob/25d16a2c3c54befcb3916dbe756e051984c532a8/examples/jsm/libs/stats.module.js">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:479b90c02507b4ecc26114db97082694 -->
+    <!-- blob contrib key: blob_contributors:v22:4ff64352cdaccd9ff4aed66e9ecce957 -->
     
 
     <div class="d-flex flex-items-center flex-shrink-0 pb-3 flex-wrap flex-justify-between flex-md-justify-start">
       
-<details class="details-reset details-overlay branch-select-menu " id="branch-select-menu">
-  <summary class="btn css-truncate btn-sm"
+<details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
+  <summary class="btn css-truncate"
            data-hotkey="w"
            title="Switch branches or tags">
-    <i >Branch:</i>
+      <svg height="16" class="octicon octicon-git-branch text-gray" text="gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
+
+    <i class="d-none d-lg-inline">Branch:</i>
     <span class="css-truncate-target" data-menu-button>master</span>
     <span class="dropdown-caret"></span>
   </summary>
@@ -1073,19 +1034,57 @@
           <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
         </button>
       </header>
-      <div class="SelectMenu-list">
-          <div class="SelectMenu-blankslate">
-            <p class="mb-0 text-gray">
-              No definitions found in this file.
-            </p>
-          </div>
-        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
         </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L5">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>Stats</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L20">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>addPanel</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L27">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>showPanel</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L63">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>begin</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L69">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>end</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L97">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>update</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L112">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>Panel</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:576201,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="454a5956b449c715e22c2de268d0bf278b8687c06ae91ab518f7d7197f03e529" href="/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js#L146">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>update</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>        </div>
       </div>
       <footer class="SelectMenu-footer">
         <div class="d-flex flex-justify-between">
-          Code navigation not available for this commit
-          <svg class="octicon octicon-dot-fill text-light-gray" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
         </div>
       </footer>
     </div>
@@ -1093,48 +1092,108 @@
 </details>
 
       </h2>
-        <div class="BtnGroup flex-self-end flex-shrink-0">
-          <a href="/mrdoob/three.js/find/master"
-                class="js-pjax-capture-input btn btn-sm BtnGroup-item"
-                data-pjax
-                data-hotkey="t">
-            Find file
-          </a>
-          <clipboard-copy value="examples/jsm/libs/stats.module.js" class="btn btn-sm BtnGroup-item">
-            Copy path
-          </clipboard-copy>
-        </div>
+        <a href="/mrdoob/three.js/find/master"
+              class="js-pjax-capture-input btn mr-2 d-none d-md-block"
+              data-pjax
+              data-hotkey="t">
+          Go to file
+        </a>
+
+        <details class="flex-self-end details-overlay details-reset position-relative" id="blob-more-options-details">
+  <summary role="button">
+                <span class="btn">
+              <svg height="16" class="octicon octicon-kebab-horizontal" aria-label="More options" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+
+            </span>
+
+</summary>
+              <ul class="dropdown-menu dropdown-menu-sw">
+              <li class="d-block d-md-none">
+                <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:576201,&quot;originating_url&quot;:&quot;https://github.com/mrdoob/three.js/blob/master/examples/jsm/libs/stats.module.js&quot;,&quot;user_id&quot;:67068367}}" data-hydro-click-hmac="152cd12f4939c48e744d15f9770ccb1814a1c8bc2b41919aa8da70894d50cfd1" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/mrdoob/three.js/find/master">
+                  <span class="flex-auto">Go to file</span>
+                  <span class="text-small text-gray" aria-hidden="true">T</span>
+</a>              </li>
+              <li data-toggle-for="blob-more-options-details">
+                <button type="button" data-toggle-for="jumpto-line-details-dialog" class="btn-link dropdown-item">
+                  <span class="d-flex flex-items-baseline">
+                    <span class="flex-auto">Go to line</span>
+                    <span class="text-small text-gray" aria-hidden="true">L</span>
+                  </span>
+                </button>
+              </li>
+              <li data-toggle-for="blob-more-options-details">
+                <button type="button" data-toggle-for="jumpto-symbol-select-menu" class="btn-link dropdown-item">
+                  <span class="d-flex flex-items-baseline">
+                    <span class="flex-auto">Go to definition</span>
+                    <span class="text-small text-gray" aria-hidden="true">R</span>
+                  </span>
+                </button>
+              </li>
+              <li class="dropdown-divider" role="none"></li>
+              <li>
+                <clipboard-copy value="examples/jsm/libs/stats.module.js" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+                  Copy path
+                </clipboard-copy>
+              </li>
+            </ul>
+
+</details>
     </div>
 
 
 
-    <div class="Box d-flex flex-column flex-shrink-0 mb-3 Box--condensed">
+    <div class="Box d-flex flex-column flex-shrink-0 mb-3">
       
   <div class="Box-header Box-header--blue Details js-details-container">
-        <div class="d-flex flex-justify-between flex-column flex-md-row flex-items-start flex-md-items-center">
-          <span class="pr-md-4 f6">
-            <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/linbingquan/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/linbingquan"><img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/23699926?s=40&amp;v=4" width="20" height="20" alt="@linbingquan" /></a>
-            <a class="text-bold link-gray-dark lh-default v-align-middle" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/linbingquan/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/linbingquan">linbingquan</a>
-              <span class="lh-default v-align-middle">
-                <a data-pjax="true" title="Examples: Clean up." class="link-gray" href="/mrdoob/three.js/commit/131c788e17d5d0ef6245a651533a31ac27f6257d">Examples: Clean up.</a>
+        <div class="d-flex flex-items-center">
+          <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
+            <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/linbingquan/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/linbingquan"><img class="avatar avatar-user" src="https://avatars0.githubusercontent.com/u/23699926?s=48&amp;v=4" width="24" height="24" alt="@linbingquan" /></a>
+          </span>
+          <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+            <div class="css-truncate css-truncate-overflow">
+              <a class="text-bold link-gray-dark" rel="contributor" data-hovercard-type="user" data-hovercard-url="/users/linbingquan/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/linbingquan">linbingquan</a>
+
+                <span>
+                  <a data-pjax="true" title="Examples: Clean up." class="link-gray" href="/mrdoob/three.js/commit/131c788e17d5d0ef6245a651533a31ac27f6257d">Examples: Clean up.</a>
+                </span>
+            </div>
+
+
+            <span class="ml-2">
+              <include-fragment accept="text/fragment+html" src="/mrdoob/three.js/commit/131c788e17d5d0ef6245a651533a31ac27f6257d/rollup?direction=e" class="d-inline"></include-fragment>
+            </span>
+          </div>
+          <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end text-gray no-wrap">
+            <span class="d-none d-md-inline">
+              <span>Latest commit</span>
+              <a class="text-small text-mono link-gray" href="/mrdoob/three.js/commit/131c788e17d5d0ef6245a651533a31ac27f6257d" data-pjax>131c788</a>
+              <span itemprop="dateModified"><relative-time datetime="2020-04-30T09:40:12Z" class="no-wrap">Apr 30, 2020</relative-time></span>
+            </span>
+
+            <a data-pjax href="/mrdoob/three.js/commits/dev/examples/jsm/libs/stats.module.js" class="ml-3 no-wrap link-gray-dark no-underline">
+              <svg height="16" class="octicon octicon-history text-gray" text="gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path></svg>
+
+              <span class="d-none d-sm-inline">
+                <strong>History</strong>
               </span>
-          </span>
-          <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-            <a class="pr-2 text-mono link-gray" href="/mrdoob/three.js/commit/131c788e17d5d0ef6245a651533a31ac27f6257d" data-pjax>131c788</a>
-            <relative-time datetime="2020-04-30T09:40:12Z" class="no-wrap">Apr 30, 2020</relative-time>
-          </span>
+            </a>
+          </div>
         </div>
   </div>
 
-  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap f6" >
+  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
     <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-3" id="blob_contributors_box">
-      <summary class="btn-link">
-        <span><strong>2</strong> contributors</span>
+      <summary class="link-gray-dark">
+          <svg height="16" class="octicon octicon-people text-gray" text="gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
+
+          <strong>2</strong>
+          
+          contributors
       </summary>
       <details-dialog
         class="Box Box--overlay d-flex flex-column anim-fade-in fast"
         aria-label="Users who have contributed to this file"
-        src="/mrdoob/three.js/contributors-list/master/examples/jsm/libs/stats.module.js" preload>
+        src="/mrdoob/three.js/contributors-list/dev/examples/jsm/libs/stats.module.js" preload>
         <div class="Box-header">
           <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
@@ -1147,10 +1206,10 @@
       </details-dialog>
     </details>
       <span class="">
-    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Mugen87/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob/three.js/commits/master/examples/jsm/libs/stats.module.js?author=Mugen87">
-      <img class="avatar mr-2 avatar-user" src="https://avatars2.githubusercontent.com/u/12612165?s=40&amp;v=4" width="20" height="20" alt="@Mugen87" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/linbingquan/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob/three.js/commits/master/examples/jsm/libs/stats.module.js?author=linbingquan">
-      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/23699926?s=40&amp;v=4" width="20" height="20" alt="@linbingquan" /> 
+    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Mugen87/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob/three.js/commits/dev/examples/jsm/libs/stats.module.js?author=Mugen87">
+      <img class="avatar mr-2 avatar-user" src="https://avatars3.githubusercontent.com/u/12612165?s=48&amp;v=4" width="24" height="24" alt="@Mugen87" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/linbingquan/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob/three.js/commits/dev/examples/jsm/libs/stats.module.js?author=linbingquan">
+      <img class="avatar mr-2 avatar-user" src="https://avatars0.githubusercontent.com/u/23699926?s=48&amp;v=4" width="24" height="24" alt="@linbingquan" /> 
 </a>
 </span>
 
@@ -1178,7 +1237,6 @@
     <div class="BtnGroup">
       <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/mrdoob/three.js/raw/master/examples/jsm/libs/stats.module.js">Raw</a>
         <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/mrdoob/three.js/blame/master/examples/jsm/libs/stats.module.js">Blame</a>
-        <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/mrdoob/three.js/commits/master/examples/jsm/libs/stats.module.js">History</a>
     </div>
 
 
@@ -1191,13 +1249,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/mrdoob/three.js/edit/master/examples/jsm/libs/stats.module.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oM9CDPFrnzKMNd96OGKg/vz49OeOLf9xKcnKRkIAxsljoEIqXBvub24NOAitEGb4vCBGCKRFlXZ3a8MIzGaHcQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/mrdoob/three.js/edit/master/examples/jsm/libs/stats.module.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="nIlP+5pM5seRRaxIus4BfxRjco0/0rKhwfjb9+zH12lf5k/dNzyXmnN9SzovvMd5VLvAYhW62KafWtK5YqGW0Q==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/mrdoob/three.js/delete/master/examples/jsm/libs/stats.module.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SwX749mWnZ46q1BoIt57nJ6ZH7AnfC0/wFAfkTGeeyus4iyYw4yoSw44NV2SjgAVuetVh7K/WZxgAS8gnDml5w==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/mrdoob/three.js/delete/master/examples/jsm/libs/stats.module.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="eLKx22kX5zSwVXH558JHDmLK5lr7OyLw9rrjz8Zua3mfVWagcw3S4YTGFMxXkjyHRbisbW74VlNW69N+a8m1tQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1984,7 +2042,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/mrdoob/three.js/blame/400acd3c78c8e631087322eb1e0e9fc00a16b375/examples/jsm/libs/stats.module.js">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/mrdoob/three.js/blame/25d16a2c3c54befcb3916dbe756e051984c532a8/examples/jsm/libs/stats.module.js">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/mrdoob/three.js/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -2033,7 +2091,7 @@
   </div>
 
         
-<div class="footer container-lg width-full p-responsive" role="contentinfo">
+<div class="footer container-xl width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
       <li class="mr-3 mr-lg-0">&copy; 2020 GitHub, Inc.</li>
@@ -2074,14 +2132,14 @@
 
 
     <script crossorigin="anonymous" async="async" integrity="sha512-WcQmT2vhcClFVOaaAJV/M+HqsJ2Gq/myvl6F3gCVBxykazXTs+i5fvxncSXwyG1CSfcrqmLFw/R/bmFYzprX2A==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-59c4264f.js"></script>
-    <script crossorigin="anonymous" integrity="sha512-b2JMNQRsfC2olTZ9fbLouImXGgfEL9MDJJ1iGhyuuslat014jlBmqbAmOTpmp4C8Sa1XxPxTO4Acl5No7eC4uA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-6f624c35.js"></script>
-    <script crossorigin="anonymous" async="async" integrity="sha512-jfR+4VdZuPf5Ck+JA3AZuzWGHz9Sb21keZOYuMoNdfMJovIUb9vxfSdvNSchxAwj5oav48KBfa54+wbuuW8Tlg==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-8df47ee1.js"></script>
-    <script crossorigin="anonymous" async="async" integrity="sha512-v96znx7UoCTT9x5ExGL602c2pkjISH54Zz3tEp0/+OfmPEvofzbEEEmc1kpAj9FUQ7kCho2vcC7kp3FCGtdCdg==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-bfdeb39f.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-47cvnR4cfmRA+p1TUeCLY+nCEqD7tni9XPMTW5kLy2C4SUhMCAw0NWiKqvZEM0iZRBw+8u8DgeD30fC56eV02w==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-e3b72f9d.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-XWz5HaaTTrTqPbip/poDC93vFrDNSzLklq8U2NDvVKkqFnGnjKWXc4oqIroQ7niVJGouPSNavRlVOj9sG46GDQ==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-5d6cf91d.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-cFdsPtFdG3JFLJrPCw2IFgIdnECd3F1B+KWzwEih5VSTbixIO/Ymjon6nfNo/EQihv3x6UYYGbMet6XocJs60Q==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-70576c3e.js"></script>
     
-    <script crossorigin="anonymous" async="async" integrity="sha512-KlL85aUgGntao6vOcl4B+4qGaVbCvTLNIuwP1f25gZ7FaAFMUzeCrL2JiXupAnxQKy4J5rp7DjoiGgfIXdFhng==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-2a52fce5.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-Pd5xPTv0AbHqO0tW3FDU088cgHoiy0AFhzOH+zZd2+aOMEpNw8Gie39RZ02m2IThJBhwKhQx2JIHQnZNMwq2qg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-3dde713d.js"></script>
     
       <script crossorigin="anonymous" async="async" integrity="sha512-4GcSWGoe36+BoWho4gtJcByZe8j43w+lt2/PDe3rmBxRVSgD29YipDwuIywe8fvOd2b2CszBqaPGxSznUtE3Xg==" type="application/javascript" data-module-id="./drag-drop.js" data-src="https://github.githubassets.com/assets/drag-drop-e0671258.js"></script>
-      <script crossorigin="anonymous" async="async" integrity="sha512-3Vk1NFIOm+TBUMM6pTA6DCUwwLLnc/QIT8jpENm71InvSU8O4p2plDagpst1tH1l+9jOBnneaXZnAskA9a2b3w==" type="application/javascript" data-module-id="./gist-vendor.js" data-src="https://github.githubassets.com/assets/gist-vendor-dd593534.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-2k8dDHk0yt52uKvOvgc9cwOXOeJhxBfVP5kPS2BrCdytDmtEIJ2yone26vFENAyk1a2aFQ7KDgEevRQafuAf8A==" type="application/javascript" data-module-id="./gist-vendor.js" data-src="https://github.githubassets.com/assets/gist-vendor-da4f1d0c.js"></script>
       <script crossorigin="anonymous" async="async" integrity="sha512-iv+4yAluOjiG50ZypUBIWIUCRDo6JEBf2twvmd5AelxgPQJO/XC1oNMGTMdDfKt30p7G7fHEOTZ2utHWDJ9PPQ==" type="application/javascript" data-module-id="./randomColor.js" data-src="https://github.githubassets.com/assets/randomColor-8affb8c8.js"></script>
     
     
